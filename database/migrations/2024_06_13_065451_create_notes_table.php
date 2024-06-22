@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('notes', function (Blueprint $table) {
+        Schema::create('notess', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+            $table->string('Title');
             $table->string('image');
             $table->unsignedBigInteger('idKategori');
             $table->longText('body');

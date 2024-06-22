@@ -15,13 +15,13 @@ class KategoriSeeder extends Seeder
     {
         DB::table('kategoris')->insert([
             [
-                'nama_kategori' => 'kategori 1',
+                'namaKategori' => 'kategori 1',
             ],
             [
-                'nama_kategori' => 'kategori 2',
+                'namaKategori' => 'kategori 2',
             ],
             [
-                'nama_kategori' => 'kategori 3',
+                'namaKategori' => 'kategori 3',
             ],
         ]);
     }

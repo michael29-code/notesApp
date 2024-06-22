@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Notes App</title>
-    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    @include('nav')
+    @include('navigation')
     <main>
         <div class="container">
             @yield('content')
